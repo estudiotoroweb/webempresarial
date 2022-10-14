@@ -1,0 +1,13 @@
+.fr-center {
+	display: flex !important;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.fc-center {
+	display: flex !important;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}

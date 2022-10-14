@@ -1,0 +1,47 @@
+.customfooter {
+	background-color: #2B2E32;
+	color: white;
+	padding: 3rem 0rem;
+	
+	.logo {
+		width: 100px;
+		height: 100px;
+	}
+
+	p {
+		font-size: 12px !important;
+		margin-bottom: 4px !important;
+		cursor: pointer;
+	}
+
+	.textsimple {
+		margin-bottom: 2rem !important;
+	}
+}
+
+.social-container {
+	display: flex;
+	margin: 1rem 0rem;
+
+	.centered {
+		text-align: center;
+		display: flex;
+    justify-content: center;
+	}
+	&__mg {
+		margin-right: 16px;
+		color: white;
+		margin-bottom: 0px !important;
+	}
+}
+.icon-social {
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	margin-right: 16px;
+}
+
+.secondarycustomfooter {
+	background-color: #1D1F22;
+	padding: 2rem;
+}

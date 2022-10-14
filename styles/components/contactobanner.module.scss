@@ -1,0 +1,16 @@
+.contacto-banner {
+	background-color: #FFCE33 !important;
+	// margin: 2rem 0px;
+	padding: 5rem 0rem;
+	color: white;
+
+	&__action {
+		display: flex !important;
+		flex-direction: row;
+		justify-content: flex-end !important;
+	}
+	img {
+		width: 90px;
+		height: 90px;
+	}
+}

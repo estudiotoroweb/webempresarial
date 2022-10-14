@@ -1,0 +1,64 @@
+.torobanner {
+	background: url('../../public/background.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 470px;
+	display: flex !important;
+	align-items: center;
+	
+	&__container {
+		display: flex !important;
+    justify-content: center;
+		padding: 1rem 0rem;
+	}
+
+	&__content {
+		background-color: #000000ab;
+    padding: 2rem;
+    display: flex;
+    height: 300px;
+		width: 100%;
+    justify-content: center;
+	}
+
+	&__hospot {
+		width: 50%;
+		align-items: center;
+    display: flex;
+    flex-direction: column;
+		justify-content: center;
+
+		h3 {
+			font-size: 20px;
+			color: #FFCE33;
+			margin: 0px !important;
+		}
+
+		h4 {
+			font-size: 28px;
+			color: white;
+			text-align: center;
+		}
+
+		.button-black {
+			color: #000000 !important;
+		}
+	}
+	&__hospotsecond {
+		width: 50%;
+		display: flex;
+    align-items: center;
+		justify-content: center;
+		nav {
+			gap: 2rem;
+			list-style: none;
+			font-weight: bold;
+			color: white;
+			li {
+				margin-bottom: 1rem;
+			}
+		}
+	}
+}

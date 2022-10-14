@@ -1,0 +1,11 @@
+.services {
+	padding: 80px 0px 100px 0px;
+	
+	&__align {
+		display: flex !important;
+		justify-content: space-between !important;
+	}
+	&__title {
+		margin-bottom: 30px !important;
+	}
+}

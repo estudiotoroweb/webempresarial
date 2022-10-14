@@ -1,0 +1,19 @@
+.portafoliobanner {
+	padding: 70px 0px 120px 0px !important;
+	text-align: center;
+	
+	&__title {
+		margin: 0px !important;
+	}
+	&__subtitle {
+
+	}
+	&__description {
+		margin-bottom: 4rem !important;
+	}
+	
+	&__item-img {
+		width: 270px !important;
+		height: 200px !important;
+	}
+}
